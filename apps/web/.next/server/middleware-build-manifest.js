@@ -1,18 +1,32 @@
-self.__BUILD_MANIFEST = {
-  "polyfillFiles": [
-    "static/chunks/polyfills.js"
-  ],
-  "devFiles": [],
-  "ampDevFiles": [],
-  "lowPriorityFiles": [],
-  "rootMainFiles": [],
+globalThis.__BUILD_MANIFEST = {
   "pages": {
-    "/_app": []
+    "/": [
+      "static/chunks/1nx1f4bipt7my.js",
+      "static/chunks/1kiid4bx2pw7o.js",
+      "static/chunks/0y4un2cc5fvt8.js",
+      "static/chunks/turbopack-2h3j146gvyfs1.js"
+    ],
+    "/_app": [
+      "static/chunks/2tkjlwuh2leyk.js",
+      "static/chunks/1kiid4bx2pw7o.js",
+      "static/chunks/3-r0xa5m4rhf2.css",
+      "static/chunks/turbopack-07767vaicuao3.js"
+    ],
+    "/_error": [
+      "static/chunks/429msdl74h0jc.js",
+      "static/chunks/1kiid4bx2pw7o.js",
+      "static/chunks/turbopack-3hnk2w758tnde.js"
+    ]
   },
-  "ampFirstPages": []
+  "devFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [
+    "static/FuDnLwG6Kcnj5LBYGenEV/_buildManifest.js",
+    "static/FuDnLwG6Kcnj5LBYGenEV/_ssgManifest.js",
+    "static/FuDnLwG6Kcnj5LBYGenEV/_clientMiddlewareManifest.js"
+  ],
+  "rootMainFiles": [],
+  "rootMainFilesTree": {},
+  "pagesChunkGroupBootstrapParams": {},
+  "chunkLoadingGlobal": "TURBOPACK"
 };
-self.__BUILD_MANIFEST.lowPriorityFiles = [
-"/static/" + process.env.__NEXT_BUILD_ID + "/_buildManifest.js",
-,"/static/" + process.env.__NEXT_BUILD_ID + "/_ssgManifest.js",
-
-];

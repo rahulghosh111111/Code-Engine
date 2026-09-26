@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/rg156/Downloads/code-engine/node_modules/.pnpm/next@16.3.6_@types+node@20._dd07328ea368eb848198fcb917744a93/node_modules/next/head.js"],"sourcesContent":["module.exports = require('./dist/shared/lib/head')\n"],"names":["module","exports"],"mappings":"AAAAA,OAAOC,OAAO","ignoreList":[0]}}]
+}
