@@ -1,0 +1,12 @@
+packages:
+  - 'apps/*'
+  - 'engine'
+  - 'worker'
+  - 'packages/*'
+  - 'runners/*'
+  - 'scripts'
+allowBuilds:
+  '@prisma/engines': false
+  esbuild: false
+  prisma: false
+  workerd: false
